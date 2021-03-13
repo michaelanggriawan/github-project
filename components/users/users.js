@@ -5,7 +5,7 @@ import UserSearch from './userSearch';
 function users({ users, setUpdateUsers, updateUsers }) {
 	const [loading, setLoading] = useState(false);
 
-	if (loading) return <div className='loadingCenter' />;
+	if (loading) return <div className='loading-center' />;
 
 	if (updateUsers.length > 0) {
 		return (
